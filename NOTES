@@ -1,0 +1,85 @@
+Bot/User leave:
+
+{
+    "ok": true,
+    "result": [
+        {
+            "update_id": 692276276,
+            "message": {
+                "message_id": 37,
+                "from": {
+                    "id": 38392713,
+                    "is_bot": false,
+                    "first_name": "Sadale (jan Sate)",
+                    "username": "Sadale"
+                },
+                "chat": {
+                    "id": -1001357958274,
+                    "title": "Bot Test Supergroup",
+                    "type": "supergroup"
+                },
+                "date": 1543200836,
+                "left_chat_participant": {
+                    "id": 661713297,
+                    "is_bot": true,
+                    "first_name": "Sadale Test Sender Bot",
+                    "username": "SadaleTestSenderBot"
+                },
+                "left_chat_member": {
+                    "id": 661713297,
+                    "is_bot": true,
+                    "first_name": "Sadale Test Sender Bot",
+                    "username": "SadaleTestSenderBot"
+                }
+            }
+        }
+    ]
+
+
+
+Bot/User join:
+
+{
+    "ok": true,
+    "result": [
+        {
+            "update_id": 692276277,
+            "message": {
+                "message_id": 38,
+                "from": {
+                    "id": 38392713,
+                    "is_bot": false,
+                    "first_name": "Sadale (jan Sate)",
+                    "username": "Sadale"
+                },
+                "chat": {
+                    "id": -1001357958274,
+                    "title": "Bot Test Supergroup",
+                    "type": "supergroup"
+                },
+                "date": 1543200925,
+                "new_chat_participant": {
+                    "id": 661713297,
+                    "is_bot": true,
+                    "first_name": "Sadale Test Sender Bot",
+                    "username": "SadaleTestSenderBot"
+                },
+                "new_chat_member": {
+                    "id": 661713297,
+                    "is_bot": true,
+                    "first_name": "Sadale Test Sender Bot",
+                    "username": "SadaleTestSenderBot"
+                },
+                "new_chat_members": [
+                    {
+                        "id": 661713297,
+                        "is_bot": true,
+                        "first_name": "Sadale Test Sender Bot",
+                        "username": "SadaleTestSenderBot"
+                    }
+                ]
+            }
+        }
+    ]
+}
+
