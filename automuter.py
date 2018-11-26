@@ -152,7 +152,7 @@ while True:
                                         response = telegramCallApi("restrictChatMember", {"chat_id": chatId, "user_id":userId, "until_date":0, "can_send_messages":True, "can_send_media_messages":True, "can_send_other_messages":True, "can_add_web_page_previews":True}, MAX_API_RESPOSE_DELAY)
                                         if response == None or 'ok' not in response or response['ok'] == False:
                                             telegramCallApi("sendMessage", {"chat_id": chatId, "text":"Approval failed. Have you granted 'Ban Users' priviledge to this bot?"}, MAX_API_RESPOSE_DELAY)
-                        #Handles text_mention
+                        #Handles text_mention. Some users don't have a username. That's how do we get text_mention.
                         if 'entities' in message:
                             for entity in message['entities']:
                                 if 'type' in entity and entity['type'] == 'text_mention':
